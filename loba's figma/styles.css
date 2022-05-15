@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: coolvetica;
+	background-image: url("images/Group.png");
+	background-position: center;
+	/*background: fixed;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*
+
+	mix-blend-mode: soft-light;
+	background-image: url("images/bground.svg");*/
+}
+
+/*Navigation*/
+.nav-container {
+
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 72px;
+}
+
+nav ul {
+	display: flex;
+
+}
+
+nav .logo {
+	font-family: 'Product Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 58px;
+	color: #FFFFFF; 
+
+}
+
+.nav-items li {
+	list-style: none;
+	margin-right: 100px;
+}
+.nav-items li:nth-last-of-type(1) {
+	margin: 0;
+}
+.nav-items li a {
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*Header*/
+.header-container {
+	height: calc(100vh - 72px);
+	display: flex;
+	align-items: center;
+}
+
+header {
+	/*display: flex;*/
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .welcome-text {
+	font-family: 'Coolvetica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	text-align: center;
+	line-height: 77px;
+	color: #FFFFFF;
+
+}
+
+header .Time {
+
+	font-family: 'Product Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 161px;
+	line-height: 195px;
+	letter-spacing: 0.17em;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+header .day{
+	font-family: 'coolvetica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.17em;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
